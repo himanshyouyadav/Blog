@@ -23,13 +23,13 @@ $(document).ready(function () {
             $toggleCollapse.click(function () {
                     
                     $nav.toggleClass('collapse');
-                    if ($('.fas').hasClass('fa-bars')) {
-                        $('.fas').removeClass('fa-bars');
-                        $('.fas').addClass('fa-times');
+                  if ($('.nav-bar').hasClass('fa-bars')) {
+                        $('.nav-bar').removeClass('fa-bars');
+                        $('.nav-bar').addClass('fa-times');
                     }
                         else {
-                            $('.fas').removeClass('fa-times');
-                            $('.fas').addClass('fa-bars');
+                            $('.nav-bar').removeClass('fa-times');
+                            $('.nav-bar').addClass('fa-bars');
                         }
 
 
